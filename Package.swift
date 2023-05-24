@@ -24,7 +24,7 @@ let linkerSettings: [LinkerSetting] = [
 
 let package = Package(
     name: "ffmpeg-kit-spm",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v12)],
     products: [
             .library(
                 name: "FFmpeg-Kit",
